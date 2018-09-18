@@ -1,1 +1,35 @@
 -----Manual de instalación de JDK-----
+
+Casillas Muñoz, Diego Armando
+Prebecario #3
+
+Este manual está escrito para instalar
+JDK en un sistema operativo Ubuntu 16.04, 
+aunque también debería funcionar para
+12.04 y 14.04.
+
+1.- Añadir el repositorio de Oracle en el sistema con el comando:
+
+$$ sudo add-apt-repository ppa:webupd8team/java
+
+2.- Actualizamos el sistema:
+
+$$ sudo apt-get update
+
+3.- Elegimos qué java vamos a instalar.
+
+Para instalar la versión 8:
+
+	$$ sudo apt-get install oracle-java8-installer
+
+Para instalar la versión 7:
+
+	$$ sudo apt-get install oracle-java7-installer
+
+4.- Comprobamos la instalación mediante el siguiente comando:
+
+	$$ java -version
+
+Tutorial basado en los pasos a seguir en:
+
+https://jmguimera.blogspot.com/2016/08/instalar-jdk-8-de-oracle-en-ubuntu-16.html
