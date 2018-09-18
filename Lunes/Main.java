@@ -16,5 +16,29 @@ public class Main{
 		//Presentación de datos
 		System.out.print("La sucursal 1 está ubicada en: ");
 		System.out.println(sucursal1.getDireccion());
+		System.out.print("Posee ");
+		System.out.print(sucursal1.getEmpleado());
+		System.out.println(" empleados, que son:");
+		System.out.print(empleado1.getNombre());
+		System.out.print(", ");
+		System.out.println(empleado1.getPuesto());
+		System.out.print(empleado2.getNombre());
+		System.out.print(", ");
+		System.out.println(empleado2.getPuesto());
+		System.out.print(empleado3.getNombre());
+		System.out.print(", ");
+		System.out.println(empleado3.getPuesto());
+		System.out.print(empleado4.getNombre());
+		System.out.print(", ");
+		System.out.println(empleado4.getPuesto());
+		System.out.println("Tienen salarios de:");
+		System.out.print(empleado1.getSueldo());
+		System.out.println("pesos");
+		System.out.print(empleado2.getSueldo());
+		System.out.println("pesos");
+		System.out.print(empleado3.getSueldo());
+		System.out.println("pesos");		
+		System.out.print(empleado4.getSueldo());
+		System.out.println("pesos");
 	}
 }
