@@ -40,5 +40,27 @@ public class Main{
 		System.out.println("pesos");		
 		System.out.print(empleado4.getSueldo());
 		System.out.println("pesos");
+
+		System.out.println("En esta tienda venden (en la primera fila producto y en la segunda precio: ");
+		System.out.print(producto1.getNombre());
+		System.out.print(": ");
+		System.out.print(producto1.getPrecio());
+		System.out.println(" pesos.");
+		System.out.print(producto2.getNombre());
+		System.out.print(": ");
+		System.out.print(producto2.getPrecio());
+		System.out.println(" pesos.");
+		System.out.print(producto3.getNombre());
+		System.out.print(": ");
+		System.out.print(producto3.getPrecio());
+		System.out.println(" pesos.");
+		System.out.print(producto4.getNombre());
+		System.out.print(": ");
+		System.out.print(producto4.getPrecio());
+		System.out.println(" pesos.");
+
+		System.out.println("Y en total la tienda, cuenta con un capital de:");
+		System.out.print(Tienda.totalDinero);
+		System.out.println(" pesos.");
 	}
 }
