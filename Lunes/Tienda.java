@@ -1,14 +1,16 @@
 public class Tienda{
 	private String direccion;//dirección de la tienda
 	private float dinero; //dinero con el que cuenta la sucursal
-	static int contProductos=0; //productos
-	static int contEmpleados=0; //empleados
+	static int contProductos=4; //productos
+	static int contEmpleados=4; //empleados
 	static int numeroTiendas=0; //tiendas
+	static int totalDinero=0; //dinero total de todas las tiendas
 
 	public Tienda(String direccion,float dinero){
 		this.direccion = direccion;
 		this.dinero = dinero;
 		numeroTiendas++;
+		totalDinero+=dinero;
 	}
 
 	public int numeroEmpleados(){
@@ -31,19 +33,11 @@ public class Tienda{
 		return dinero;
 	}
 
-	public void setProducto(String producto){
-		this.producto = producto;
-	}
-
-	public String getProducto(){
-		return producto;
-	}
-
-	public void setEmpleado(String empleado){
-		this.empleado = empleado;
+	public int getContProductos(){
+		return contProductos;
 	}
 
 	public String getEmpleado(){
-		return empleado;
+		return contEmpleados;
 	}
 }
