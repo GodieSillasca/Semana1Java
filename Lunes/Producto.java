@@ -15,7 +15,7 @@ public class Producto{
 		return nombre;
 	}
 
-	public void setPrecio(String precio){
+	public void setPrecio(float precio){
 		this.precio = precio;
 	}
 

@@ -4,7 +4,7 @@ public class Main{
 		//Para la Sucursal 1
 		Tienda sucursal1 = new Tienda("Enrique Segoviano #8",20000);
 		//Para sus empleados
-		Empleado empleado1 = new Empleado("gerente","Juan",200)
+		Empleado empleado1 = new Empleado("gerente","Juan",200);
 		Empleado empleado2 = new Empleado("cajero","Toño",100);
 		Empleado empleado3 = new Empleado("conserje","Mateo",75);
 		Empleado empleado4 = new Empleado("vigilante","Pedro",75);

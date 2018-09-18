@@ -13,9 +13,6 @@ public class Tienda{
 		totalDinero+=dinero;
 	}
 
-	public int numeroEmpleados(){
-		
-	}
 
 	public String getDireccion(){
 		return direccion;
@@ -25,11 +22,11 @@ public class Tienda{
 		this.direccion = direccion;
 	}
 
-	public void setDinero(int dinero){
+	public void setDinero(float dinero){
 		this.dinero = dinero;
 	}
 
-	public int getDinero(){
+	public float getDinero(){
 		return dinero;
 	}
 
@@ -37,7 +34,7 @@ public class Tienda{
 		return contProductos;
 	}
 
-	public String getEmpleado(){
+	public int getEmpleado(){
 		return contEmpleados;
 	}
 }
